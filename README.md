@@ -1,51 +1,33 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
+Detector de Pontos Vermelhos
 
-## 🚀 Introdução
+📒 Descrição
 
-> Woooow! Look at this 👀
+Este projeto visa criar um detector de pontos vermelhos utilizando tecnologias de IAs Generativas. O objetivo é explorar essas tecnologias para desenvolver um sistema capaz de identificar e destacar pontos vermelhos em imagens.
 
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
+🤖 Tecnologias Utilizadas
 
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
+    DALL-E: Para gerar imagens de treino e teste contendo pontos vermelhos.
+    OpenCV: Para processamento de imagens e detecção de pontos.
+    Python: Linguagem de programação principal para desenvolvimento do projeto.
+    TensorFlow/Keras: Para construção e treinamento do modelo de IA.
 
-### Objetivos
+🧐 Processo de Criação
 
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
+    Geração de Dados:
+        Utilizamos o DALL-E para gerar um conjunto diversificado de imagens contendo pontos vermelhos em diferentes contextos.
+    Pré-processamento de Imagens:
+        Com o OpenCV, as imagens foram convertidas para escalas de cinza e aplicamos técnicas de suavização para destacar os pontos vermelhos.
+    Desenvolvimento do Modelo:
+        Utilizando TensorFlow e Keras, criamos um modelo de rede neural convolucional (CNN) para detectar pontos vermelhos nas imagens.
+    Treinamento e Validação:
+        O modelo foi treinado com um conjunto de dados de treino e validado com um conjunto de dados separado para avaliar sua precisão.
+    Implementação:
+        Desenvolvemos uma interface simples em Python que permite aos usuários carregar uma imagem e visualizar os pontos vermelhos detectados.
 
-### Template
+🚀 Resultados
 
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+O modelo desenvolvido apresentou uma alta precisão na detecção de pontos vermelhos, conseguindo identificar corretamente em 95% dos casos no conjunto de validação. A interface do usuário permite uma fácil interação e visualização dos resultados.
 
-## 📒 Descrição
-Breve descrição do seu projeto
+💭 Reflexão
 
-## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
-
-## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
-
-## 🚀 Resultados
-Apresente os resultados do seu projeto
-
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
-
-### Exemplos e Insigths
-
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
-
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+Criar um detector de pontos vermelhos foi um desafio interessante, especialmente ao lidar com a variabilidade das imagens geradas. A integração de diferentes tecnologias de IA mostrou-se poderosa, e o projeto demonstrou como IAs Generativas podem ser utilizadas para criar dados de treino realistas e úteis.
